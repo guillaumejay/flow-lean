@@ -6,6 +6,14 @@ All notable changes to flow-lean are documented here.
 
 ### Changed
 
+- Progressive disclosure: `SKILL.md` shrinks from about 4,800 to about 2,000
+  tokens. Evidence/status/rollback, formats/diagrams/handles/recap and footer
+  rules move to `references/*.md`, read on demand. Duplicated rules (evidence
+  scope, levels, never-list, depth by request) are merged once.
+- Time estimates: forbid hours, days and weeks too, not only minutes.
+- Banned tokens use their accented French spelling.
+- Add a short pre-send check.
+
 - Sync Layer 1 with Ponytail 5.2.0: scope check before writing, codebase
   reuse as its own rung, finish every caller and test the change breaks,
   root-cause bug fixes in shared code, and an explicit never-cut list.
